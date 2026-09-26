@@ -1,5 +1,5 @@
-# Glossary
+# Annex II other critical sectors
 
-Terms defined in Article 6 of Directive (EU) 2022/2555.
+One page per Annex II sector.
 
 No concepts yet. Pages added here follow the concept shape described in the repository's CONTRIBUTING.md.

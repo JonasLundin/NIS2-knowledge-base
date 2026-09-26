@@ -1,5 +1,5 @@
-# Glossary
+# EEA EFTA States
 
-Terms defined in Article 6 of Directive (EU) 2022/2555.
+Iceland, Liechtenstein and Norway: incorporation status.
 
 No concepts yet. Pages added here follow the concept shape described in the repository's CONTRIBUTING.md.

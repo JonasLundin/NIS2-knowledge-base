@@ -1,5 +1,5 @@
-# Glossary
+# NIS Cooperation Group
 
-Terms defined in Article 6 of Directive (EU) 2022/2555.
+Reference documents and work-stream outputs.
 
 No concepts yet. Pages added here follow the concept shape described in the repository's CONTRIBUTING.md.

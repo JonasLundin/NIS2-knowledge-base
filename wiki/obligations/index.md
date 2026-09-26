@@ -1,5 +1,13 @@
 # Obligations
 
-Role and lifecycle views of what the instrument requires.
+Role and lifecycle views: who is an essential or important entity, governance duties, Article 21 risk-management measures, Article 23 reporting clocks, registration, supply-chain security and jurisdiction.
 
-No concepts yet. Pages added here follow the concept shape described in the repository's CONTRIBUTING.md.
+## Structure
+
+- [Scope and entity identification](scope/index.md): Article 2 scope, the size-cap rule, sector and entity-type tests, essential versus important, exclusions.
+- [Governance](governance/index.md): Article 20 management-body approval, oversight, training and liability.
+- [Risk-management measures](risk-management-measures/index.md): Article 21(2)(a) to (j) measures and the all-hazards approach, with the Implementing Regulation detail for in-scope digital entities.
+- [Incident reporting](reporting/index.md): Article 23: significant-incident criteria, early warning within 24 hours, notification within 72 hours, intermediate and final reports, recipient notification, voluntary notification.
+- [Registration](registration/index.md): Article 3(4) entity lists, Article 27 registration of digital entities, ENISA registry, national registration deadlines.
+- [Supply chain](supply-chain/index.md): Article 21(2)(d) and (3), coordinated risk assessments under Article 22, and the interface with CRA-conformant products.
+- [Jurisdiction and main establishment](jurisdiction-and-establishment/index.md): Article 26 jurisdiction rules, main establishment, representatives for non-EU entities.

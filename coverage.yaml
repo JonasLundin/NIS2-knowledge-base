@@ -7,8 +7,33 @@ total_concepts: 0
 by_category: {}
 by_type: {}
 gates:
-  law_articles:
-    pattern: 'law/*/articles/article-*'
-    expected: null
+  nis2_articles:
+    pattern: law/eu/nis2/articles/article-*
+    expected: 46
+    actual: 0
+    status: pending
+  nis2_annexes:
+    pattern: law/eu/nis2/annexes/annex-*
+    expected: 2
+    actual: 0
+    status: pending
+  annex_i_sectors:
+    pattern: sectors/high-criticality/*
+    expected: 11
+    actual: 0
+    status: pending
+  annex_ii_sectors:
+    pattern: sectors/other-critical/*
+    expected: 7
+    actual: 0
+    status: pending
+  eu_member_states:
+    pattern: jurisdictions/eu-member-states/*
+    expected: 27
+    actual: 0
+    status: pending
+  eea_states:
+    pattern: jurisdictions/eea/*
+    expected: 3
     actual: 0
     status: pending

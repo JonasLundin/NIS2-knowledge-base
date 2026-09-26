@@ -1,5 +1,5 @@
-# Glossary
+# European Commission
 
-Terms defined in Article 6 of Directive (EU) 2022/2555.
+Guidelines, FAQs and implementing-act explanatory material.
 
 No concepts yet. Pages added here follow the concept shape described in the repository's CONTRIBUTING.md.
