@@ -1,4 +1,148 @@
 version: 1
-checked_at: '2026-09-26T00:00:00Z'
-total_sources: 0
-sources: {}
+checked_at: '2026-09-27T00:00:00Z'
+total_sources: 3
+sources:
+  directive-eu-2022-2555:
+    id: directive-eu-2022-2555
+    resource: http://data.europa.eu/eli/dir/2022/2555/oj
+    title: Directive (EU) 2022/2555 on measures for a high common level of cybersecurity
+      across the Union (NIS2)
+    author: European Parliament and Council of the European Union
+    last_modified: '2022-12-14T00:00:00Z'
+    used_by:
+    - authorities/csirts
+    - authorities/enisa
+    - authorities/eu-cyclone
+    - authorities/nis-cooperation-group
+    - authorities/single-points-of-contact
+    - glossary/essential-entity
+    - glossary/important-entity
+    - glossary/near-miss
+    - glossary/significant-incident
+    - jurisdictions/eea/iceland
+    - jurisdictions/eea/liechtenstein
+    - jurisdictions/eea/norway
+    - jurisdictions/eu-member-states/austria
+    - jurisdictions/eu-member-states/belgium
+    - jurisdictions/eu-member-states/bulgaria
+    - jurisdictions/eu-member-states/croatia
+    - jurisdictions/eu-member-states/cyprus
+    - jurisdictions/eu-member-states/czechia
+    - jurisdictions/eu-member-states/denmark
+    - jurisdictions/eu-member-states/estonia
+    - jurisdictions/eu-member-states/finland
+    - jurisdictions/eu-member-states/france
+    - jurisdictions/eu-member-states/germany
+    - jurisdictions/eu-member-states/greece
+    - jurisdictions/eu-member-states/hungary
+    - jurisdictions/eu-member-states/ireland
+    - jurisdictions/eu-member-states/italy
+    - jurisdictions/eu-member-states/latvia
+    - jurisdictions/eu-member-states/lithuania
+    - jurisdictions/eu-member-states/luxembourg
+    - jurisdictions/eu-member-states/malta
+    - jurisdictions/eu-member-states/netherlands
+    - jurisdictions/eu-member-states/poland
+    - jurisdictions/eu-member-states/portugal
+    - jurisdictions/eu-member-states/romania
+    - jurisdictions/eu-member-states/slovakia
+    - jurisdictions/eu-member-states/slovenia
+    - jurisdictions/eu-member-states/spain
+    - jurisdictions/eu-member-states/sweden
+    - law/eu/nis2/annexes/annex-1
+    - law/eu/nis2/annexes/annex-2
+    - law/eu/nis2/articles/article-1
+    - law/eu/nis2/articles/article-10
+    - law/eu/nis2/articles/article-11
+    - law/eu/nis2/articles/article-12
+    - law/eu/nis2/articles/article-13
+    - law/eu/nis2/articles/article-14
+    - law/eu/nis2/articles/article-15
+    - law/eu/nis2/articles/article-16
+    - law/eu/nis2/articles/article-17
+    - law/eu/nis2/articles/article-18
+    - law/eu/nis2/articles/article-19
+    - law/eu/nis2/articles/article-2
+    - law/eu/nis2/articles/article-20
+    - law/eu/nis2/articles/article-21
+    - law/eu/nis2/articles/article-22
+    - law/eu/nis2/articles/article-23
+    - law/eu/nis2/articles/article-24
+    - law/eu/nis2/articles/article-25
+    - law/eu/nis2/articles/article-26
+    - law/eu/nis2/articles/article-27
+    - law/eu/nis2/articles/article-28
+    - law/eu/nis2/articles/article-29
+    - law/eu/nis2/articles/article-3
+    - law/eu/nis2/articles/article-30
+    - law/eu/nis2/articles/article-31
+    - law/eu/nis2/articles/article-32
+    - law/eu/nis2/articles/article-33
+    - law/eu/nis2/articles/article-34
+    - law/eu/nis2/articles/article-35
+    - law/eu/nis2/articles/article-36
+    - law/eu/nis2/articles/article-37
+    - law/eu/nis2/articles/article-38
+    - law/eu/nis2/articles/article-39
+    - law/eu/nis2/articles/article-4
+    - law/eu/nis2/articles/article-40
+    - law/eu/nis2/articles/article-41
+    - law/eu/nis2/articles/article-42
+    - law/eu/nis2/articles/article-43
+    - law/eu/nis2/articles/article-44
+    - law/eu/nis2/articles/article-45
+    - law/eu/nis2/articles/article-46
+    - law/eu/nis2/articles/article-5
+    - law/eu/nis2/articles/article-6
+    - law/eu/nis2/articles/article-7
+    - law/eu/nis2/articles/article-8
+    - law/eu/nis2/articles/article-9
+    - obligations/entity-registration
+    - obligations/governance
+    - obligations/incident-reporting-clocks
+    - obligations/risk-management-measures
+    - obligations/supply-chain-security
+    - sectors/high-criticality/banking
+    - sectors/high-criticality/digital-infrastructure
+    - sectors/high-criticality/drinking-water
+    - sectors/high-criticality/energy
+    - sectors/high-criticality/financial-market-infrastructures
+    - sectors/high-criticality/health
+    - sectors/high-criticality/ict-service-management
+    - sectors/high-criticality/public-administration
+    - sectors/high-criticality/space
+    - sectors/high-criticality/transport
+    - sectors/high-criticality/waste-water
+    - sectors/other-critical/chemicals
+    - sectors/other-critical/digital-providers
+    - sectors/other-critical/food
+    - sectors/other-critical/manufacturing
+    - sectors/other-critical/postal-and-courier-services
+    - sectors/other-critical/research
+    - sectors/other-critical/waste-management
+    - standards/iec-62443
+    - standards/iso-iec-27001
+    - timeline/application-date
+    - timeline/nis2-entry-into-force
+    - timeline/transposition-deadline
+  implementing-reg-eu-2024-2690:
+    id: implementing-reg-eu-2024-2690
+    resource: http://data.europa.eu/eli/reg_impl/2024/2690/oj
+    title: Commission Implementing Regulation (EU) 2024/2690 on cybersecurity risk-management
+      measures and reporting under NIS2
+    author: European Commission
+    last_modified: '2024-10-17T00:00:00Z'
+    used_by:
+    - obligations/entity-registration
+    - obligations/governance
+    - obligations/incident-reporting-clocks
+    - obligations/risk-management-measures
+    - obligations/supply-chain-security
+  enisa-nis2:
+    id: enisa-nis2
+    resource: https://www.enisa.europa.eu/topics/cybersecurity-policy/nis-directive-new
+    title: ENISA NIS2 Directive Guidance and Resources
+    author: European Union Agency for Cybersecurity (ENISA)
+    last_modified: '2024-01-01T00:00:00Z'
+    used_by:
+    - guidance/enisa-article-21-guidance

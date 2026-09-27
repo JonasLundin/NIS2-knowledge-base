@@ -1,39 +1,57 @@
 version: 1
-release: 0.0.0
-baseline: '2026-09-26'
-coverage_status: planned
+release: 0.1.0
+baseline: '2026-09-27'
+coverage_status: complete
 review_status: unverified
-total_concepts: 0
-by_category: {}
-by_type: {}
+total_concepts: 116
+by_category:
+  authority: 5
+  glossary: 4
+  guidance: 1
+  jurisdiction: 30
+  law: 48
+  requirement: 5
+  sector: 18
+  standard: 2
+  timeline: 3
+by_type:
+  Authority: 5
+  Glossary: 4
+  Guidance: 1
+  Jurisdiction: 30
+  Law: 48
+  Requirement: 5
+  Sector: 18
+  Standard: 2
+  Timeline: 3
 gates:
   nis2_articles:
     pattern: law/eu/nis2/articles/article-*
     expected: 46
-    actual: 0
-    status: pending
+    actual: 46
+    status: pass
   nis2_annexes:
     pattern: law/eu/nis2/annexes/annex-*
     expected: 2
-    actual: 0
-    status: pending
+    actual: 2
+    status: pass
   annex_i_sectors:
     pattern: sectors/high-criticality/*
     expected: 11
-    actual: 0
-    status: pending
+    actual: 11
+    status: pass
   annex_ii_sectors:
     pattern: sectors/other-critical/*
     expected: 7
-    actual: 0
-    status: pending
+    actual: 7
+    status: pass
   eu_member_states:
     pattern: jurisdictions/eu-member-states/*
     expected: 27
-    actual: 0
-    status: pending
+    actual: 27
+    status: pass
   eea_states:
     pattern: jurisdictions/eea/*
     expected: 3
-    actual: 0
-    status: pending
+    actual: 3
+    status: pass
