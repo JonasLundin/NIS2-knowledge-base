@@ -1,8 +1,9 @@
 # Jurisdictions
 
-Every EU Member State's transposing law, competent authorities, CSIRT, registration deadline and penalty framework, plus EEA status.
+Navigation index for Jurisdictions.
 
 ## Sections
 
-- [EEA EFTA States](eea/index.md) — Iceland, Liechtenstein and Norway: incorporation status.
-- [EU Member States](eu-member-states/index.md) — One page per Member State.
+- [Eea](eea/index.md) — Category section for Eea.
+- [Eu Member States](eu-member-states/index.md) — Category section for Eu Member States.
+

@@ -1,5 +1,5 @@
 ---
-type: Concept
+type: Requirement
 title: Jurisdiction, Main Establishment, and Non-EU Representatives (Article 26)
 description: Rules determining national jurisdiction, the one-stop-shop principle
   for digital providers, and representative mandates for non-EU entities.

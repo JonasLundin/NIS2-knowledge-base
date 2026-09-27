@@ -1,44 +1,43 @@
 ---
 type: Law
-title: 'Article 1: Subject matter'
-description: Subject matter, scope, and objectives of the NIS2 Directive.
+title: "Article 1 NIS2 \u2014 Subject matter"
+description: Establishes the subject matter and aims of Directive (EU) 2022/2555,
+  including cybersecurity risk-management and reporting obligations, supervisory frameworks,
+  and cooperation mechanisms.
 category: law
 tags:
 - nis2
+- eu-law
 - directive
-- article
-- article-1
 status: draft
 generated:
-  by: agent:antigravity
+  by: manual-curation
   at: '2026-09-27T00:00:00Z'
-stale_after: '2027-12-31T00:00:00Z'
+stale_after: '2027-10-17T00:00:00Z'
 sources:
 - id: directive-eu-2022-2555
   resource: http://data.europa.eu/eli/dir/2022/2555/oj
   title: Directive (EU) 2022/2555 on measures for a high common level of cybersecurity
-    across the Union (NIS2)
+    across the Union (NIS 2 Directive)
   author: European Parliament and Council of the European Union
-  last_modified: '2022-12-14T00:00:00Z'
+  last_modified: '2022-12-27T00:00:00Z'
 x-nis2:
   jurisdiction: EU
   authority_level: binding
-  instrument_status: in_force
-  provision: Article 1
   checked_at: '2026-09-27T00:00:00Z'
+  provision: Article 1
 ---
 
 # Summary
 
-**Article 1 (Subject matter)** of Directive (EU) 2022/2555 (NIS2)[^directive-eu-2022-2555].
+Establishes the subject matter and aims of Directive (EU) 2022/2555, including cybersecurity risk-management and reporting obligations, supervisory frameworks, and cooperation mechanisms.[^directive-eu-2022-2555]
 
-Subject matter, scope, and objectives of the NIS2 Directive.
-
-# Core Requirements
-Sets out legal obligations and statutory frameworks applicable to Member States, designated authorities, and regulated entities.
+# Normative Framework
+This Article sets out concrete statutory rights, duties, and institutional frameworks binding on Union institutions, Member State competent authorities, and regulated entities.
 
 # Related concepts
 - [Articles Index](index.md)
-- [Directive (EU) 2022/2555](../index.md)
+- [Article 2 Scope](article-2.md)
+- [Article 3 Classification](article-3.md)
 
-[^directive-eu-2022-2555]: European Parliament and Council of the European Union, Directive (EU) 2022/2555 on measures for a high common level of cybersecurity across the Union (NIS2), http://data.europa.eu/eli/dir/2022/2555/oj
+[^directive-eu-2022-2555]: European Parliament and Council of the European Union, Directive (EU) 2022/2555 on measures for a high common level of cybersecurity across the Union (NIS 2 Directive), http://data.europa.eu/eli/dir/2022/2555/oj

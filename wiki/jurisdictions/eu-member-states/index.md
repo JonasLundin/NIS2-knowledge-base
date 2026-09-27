@@ -1,33 +1,34 @@
-# EU Member States
+# Eu Member States
 
-One page per Member State.
+Navigation index for Eu Member States.
 
 ## Concepts
 
-- [NIS2 Implementation in Austria](austria.md) — Transposing legislation, competent authorities, CSIRT, and registration for NIS2 in Austria.
-- [NIS2 Implementation in Belgium](belgium.md) — Transposing legislation, competent authorities, CSIRT, and registration for NIS2 in Belgium.
-- [NIS2 Implementation in Bulgaria](bulgaria.md) — Transposing legislation, competent authorities, CSIRT, and registration for NIS2 in Bulgaria.
-- [NIS2 Implementation in Croatia](croatia.md) — Transposing legislation, competent authorities, CSIRT, and registration for NIS2 in Croatia.
-- [NIS2 Implementation in Cyprus](cyprus.md) — Transposing legislation, competent authorities, CSIRT, and registration for NIS2 in Cyprus.
-- [NIS2 Implementation in Czechia](czechia.md) — Transposing legislation, competent authorities, CSIRT, and registration for NIS2 in Czechia.
-- [NIS2 Implementation in Denmark](denmark.md) — Transposing legislation, competent authorities, CSIRT, and registration for NIS2 in Denmark.
-- [NIS2 Implementation in Estonia](estonia.md) — Transposing legislation, competent authorities, CSIRT, and registration for NIS2 in Estonia.
-- [NIS2 Implementation in Finland](finland.md) — Transposing legislation, competent authorities, CSIRT, and registration for NIS2 in Finland.
-- [NIS2 Implementation in France](france.md) — Transposing legislation, competent authorities, CSIRT, and registration for NIS2 in France.
-- [NIS2 Implementation in Germany](germany.md) — Transposing legislation, competent authorities, CSIRT, and registration for NIS2 in Germany.
-- [NIS2 Implementation in Greece](greece.md) — Transposing legislation, competent authorities, CSIRT, and registration for NIS2 in Greece.
-- [NIS2 Implementation in Hungary](hungary.md) — Transposing legislation, competent authorities, CSIRT, and registration for NIS2 in Hungary.
-- [NIS2 Implementation in Ireland](ireland.md) — Transposing legislation, competent authorities, CSIRT, and registration for NIS2 in Ireland.
-- [NIS2 Implementation in Italy](italy.md) — Transposing legislation, competent authorities, CSIRT, and registration for NIS2 in Italy.
-- [NIS2 Implementation in Latvia](latvia.md) — Transposing legislation, competent authorities, CSIRT, and registration for NIS2 in Latvia.
-- [NIS2 Implementation in Lithuania](lithuania.md) — Transposing legislation, competent authorities, CSIRT, and registration for NIS2 in Lithuania.
-- [NIS2 Implementation in Luxembourg](luxembourg.md) — Transposing legislation, competent authorities, CSIRT, and registration for NIS2 in Luxembourg.
-- [NIS2 Implementation in Malta](malta.md) — Transposing legislation, competent authorities, CSIRT, and registration for NIS2 in Malta.
-- [NIS2 Implementation in Netherlands](netherlands.md) — Transposing legislation, competent authorities, CSIRT, and registration for NIS2 in Netherlands.
-- [NIS2 Implementation in Poland](poland.md) — Transposing legislation, competent authorities, CSIRT, and registration for NIS2 in Poland.
-- [NIS2 Implementation in Portugal](portugal.md) — Transposing legislation, competent authorities, CSIRT, and registration for NIS2 in Portugal.
-- [NIS2 Implementation in Romania](romania.md) — Transposing legislation, competent authorities, CSIRT, and registration for NIS2 in Romania.
-- [NIS2 Implementation in Slovakia](slovakia.md) — Transposing legislation, competent authorities, CSIRT, and registration for NIS2 in Slovakia.
-- [NIS2 Implementation in Slovenia](slovenia.md) — Transposing legislation, competent authorities, CSIRT, and registration for NIS2 in Slovenia.
-- [NIS2 Implementation in Spain](spain.md) — Transposing legislation, competent authorities, CSIRT, and registration for NIS2 in Spain.
-- [NIS2 Implementation in Sweden](sweden.md) — Transposing legislation, competent authorities, CSIRT, and registration for NIS2 in Sweden.
+- [Austria (Österreich)](austria.md) — Austrian transposition via the Netzsicherheitsgesetz 2024 (NISG 2024).
+- [Belgium (België/Belgique)](belgium.md) — Belgian transposition through the Act of 26 April 2024 establishing a framework for cybersecurity of network and information systems.
+- [Bulgaria (България)](bulgaria.md) — Bulgarian transposition updating the Cybersecurity Act (Закон за киберсигурност).
+- [Croatia (Hrvatska)](croatia.md) — Croatian transposition through the Cybersecurity Act (Zakon o kibernetičkoj sigurnosti).
+- [Cyprus (Κύπρος)](cyprus.md) — Cypriot transposition through the Security of Network and Information Systems Law.
+- [Czech Republic (Česko)](czechia.md) — Czech transposition via the new Cybersecurity Act (Nový zákon o kybernetické bezpečnosti).
+- [Denmark (Danmark)](denmark.md) — Danish sectoral transposition coordinated across defense and business authorities.
+- [Estonia (Eesti)](estonia.md) — Estonian transposition updating the Cybersecurity Act (Küberturvalisuse seadus).
+- [Finland (Suomi)](finland.md) — Finnish transposition through the Kyberturvallisuuslaki.
+- [France](france.md) — French transposition via national cybersecurity law updating the Code des postes et des communications électroniques.
+- [Germany (Deutschland)](germany.md) — Federal transposition via NIS-2-Umsetzungs- und Stärkungsgesetz (NIS2UmsuCG).
+- [Greece (Ελλάδα)](greece.md) — Greek transposition via Law 5160/2024 establishing the National Cybersecurity Authority.
+- [Hungary (Magyarország)](hungary.md) — Hungarian transposition through Act XXIII of 2023 on cybersecurity.
+- [Ireland](ireland.md) — Irish transposition through the National Cyber Security Bill.
+- [Italy (Italia)](italy.md) — Italian transposition via Decreto Legislativo 4 settembre 2024, n. 138.
+- [Latvia (Latvija)](latvia.md) — Latvian transposition via the National Cybersecurity Law (Nacionālās kiberdrošības likums).
+- [Lithuania (Lietuva)](lithuania.md) — Lithuanian transposition amending the Law on Cybersecurity (Kibernetinio saugumo įstatymas).
+- [Luxembourg](luxembourg.md) — Luxembourg transposition through national legislation amending cybersecurity governance.
+- [Malta](malta.md) — Maltese transposition through national cybersecurity regulatory regulations.
+- [Netherlands (Nederland)](netherlands.md) — Dutch transposition through the Cyberbeveiligingswet.
+- [Poland (Polska)](poland.md) — Polish transposition amending the Krajowy System Cyberbezpieczeństwa (KSC).
+- [Portugal](portugal.md) — Portuguese transposition through the regime jurídico da cibersegurança.
+- [Romania (România)](romania.md) — Romanian transposition coordinated by the National Cyber Security Directorate.
+- [Slovakia (Slovensko)](slovakia.md) — Slovak transposition via the amended Act on Cybersecurity (Zákon o kybernetickej bezpečnosti).
+- [Slovenia (Slovenija)](slovenia.md) — Slovenian transposition via the amended Information Security Act (Zakon o informacijski varnosti).
+- [Spain (España)](spain.md) — Spanish transposition updating the Esquema Nacional de Seguridad (ENS) and Ley de Ciberseguridad.
+- [Sweden (Sverige)](sweden.md) — Swedish national transposition via Cybersäkerhetslag (SFS 2025:1506) and Cybersäkerhetsförordning (SFS 2025:1507).
+

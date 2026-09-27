@@ -1,7 +1,4 @@
-# NIS Cooperation Group
+# Nis Cooperation Group
 
-Reference documents and work-stream outputs.
+Navigation index for Nis Cooperation Group.
 
-## Status
-
-Technical references and guidance for nis cooperation group are tracked in associated chapters and supporting standards.

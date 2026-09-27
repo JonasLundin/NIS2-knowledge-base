@@ -20,9 +20,15 @@ sources:
 - id: directive-eu-2022-2555
   resource: http://data.europa.eu/eli/dir/2022/2555/oj
   title: Directive (EU) 2022/2555 on measures for a high common level of cybersecurity
-    across the Union (NIS2)
+    across the Union (NIS 2 Directive)
   author: European Parliament and Council of the European Union
-  last_modified: '2022-12-14T00:00:00Z'
+  last_modified: '2022-12-27T00:00:00Z'
+- id: recommendation-2003-361-ec
+  resource: http://data.europa.eu/eli/reco/2003/361/oj
+  title: Commission Recommendation 2003/361/EC concerning the definition of micro,
+    small and medium-sized enterprises
+  author: European Commission
+  last_modified: '2003-05-20T00:00:00Z'
 x-nis2:
   jurisdiction: EU
   authority_level: binding
@@ -33,43 +39,23 @@ x-nis2:
 
 # Summary
 
-**Article 2 (Scope)** establishes the personal and material application threshold of Directive (EU) 2022/2555 (NIS2)[^directive-eu-2022-2555].
+Article 2 defines the material and personal scope of Directive (EU) 2022/2555 based on sector inclusion, enterprise size, and essential critical exceptions[^directive-eu-2022-2555].
 
-Unlike NIS1, which left operator identification to fragmented national discretion, NIS2 introduces the uniform **"Size-Cap Rule"**: all entities that qualify as medium-sized enterprises or exceed the ceilings for medium-sized enterprises operating within Annex I or Annex II sectors are automatically in scope.
+# Scope Rules
 
-# The Size-Cap Thresholds (Commission Recommendation 2003/361/EC)
-
-```
-+-------------------------------------------------------------------+
-|               NIS2 SIZE-CAP DETERMINATION MATRIX                  |
-+-------------------------------------------------------------------+
-| ENTERPRISE SIZE      | EMPLOYEES        | ANNUAL TURNOVER / BALANCE|
-+----------------------+------------------+-------------------------+
-| Small / Micro        | < 50 staff       | <= €10 million          |
-| (Generally out of    |                  |                         |
-| scope unless critical)                  |                         |
-+----------------------+------------------+-------------------------+
-| Medium-Sized         | 50 to 249 staff  | <= €50 million turnover |
-| (IN SCOPE)           |                  | or <= €43m balance sheet|
-+----------------------+------------------+-------------------------+
-| Large                | >= 250 staff     | > €50 million turnover  |
-| (IN SCOPE)           |                  | or > €43m balance sheet |
-+-------------------------------------------------------------------+
-```
-
-# Exceptions: Small / Micro Entities Brought In Scope (Article 2(2))
-Regardless of their size, micro and small entities are brought under NIS2 if:
-1. Services are provided by providers of public electronic communications networks or publicly available electronic communications services;
-2. Trust service providers;
-3. Top-level domain name (TLD) name registries and DNS service providers;
-4. Sole provider of a service in a Member State essential for critical societal or economic activities;
-5. Potential disruption could induce significant systemic risk, cross-border impact, or critical societal disruptions;
-6. Critical entities under Directive (EU) 2022/2557 (CER Directive).
+- **General Size-Cap Rule (Art 2(1))**: Applies to public or private entities of a type referred to in Annex I (sectors of high criticality) or Annex II (other critical sectors) that qualify as medium-sized enterprises or exceed the ceilings for medium-sized enterprises under Recommendation 2003/361/EC.
+- **Critical Entities Regardless of Size (Art 2(2))**: Applies regardless of size to:
+  - (a) Providers of public electronic communications networks or publicly available electronic communications services;
+  - (b) Trust service providers;
+  - (c) Top-level domain (TLD) name registries and domain name system (DNS) service providers;
+  - (d) Providers of critical digital services or sole providers of essential societal or economic services;
+  - (e) Entities whose disruption could have an impact on public safety, public security, or public health;
+  - (f) Entities identified as critical entities under Directive (EU) 2022/2557 (CER Directive).
+- **CER Critical Entities (Art 2(3))**: Entities identified as critical under the CER Directive are automatically deemed essential entities under NIS2.
+- **Digital Infrastructure and Providers Regardless of Size (Art 2(4))**: DNS service providers, TLD registries, cloud computing service providers, data centre service providers, content delivery network providers, managed service providers, managed security service providers, and providers of online marketplaces, search engines, and social network platforms fall under specific scope parameters.
 
 # Related concepts
-- [Articles Index](index.md)
-- [Article 3: Essential and Important Entities](article-3.md)
-- [Annex I: Sectors of High Criticality](../annexes/annex-1.md)
-- [Annex II: Other Critical Sectors](../annexes/annex-2.md)
+- [Essential and Important Entities](article-3.md)
+- [Scope and Size Cap](../../../../obligations/scope/scope-and-size-cap.md)
 
-[^directive-eu-2022-2555]: European Parliament and Council of the European Union, Directive (EU) 2022/2555 on measures for a high common level of cybersecurity across the Union (NIS2), http://data.europa.eu/eli/dir/2022/2555/oj
+[^directive-eu-2022-2555]: European Parliament and Council of the European Union, Directive (EU) 2022/2555 on measures for a high common level of cybersecurity across the Union (NIS 2 Directive), http://data.europa.eu/eli/dir/2022/2555/oj

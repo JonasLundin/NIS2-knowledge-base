@@ -1,9 +1,10 @@
-# EEA EFTA States
+# Eea
 
-Iceland, Liechtenstein and Norway: incorporation status.
+Navigation index for Eea.
 
 ## Concepts
 
-- [NIS2 Implementation in Iceland](iceland.md) — EEA Agreement incorporation, competent authorities, and cybersecurity coordination in Iceland.
-- [NIS2 Implementation in Liechtenstein](liechtenstein.md) — EEA Agreement incorporation, competent authorities, and cybersecurity coordination in Liechtenstein.
-- [NIS2 Implementation in Norway](norway.md) — EEA Agreement incorporation, competent authorities, and cybersecurity coordination in Norway.
+- [Iceland (Ísland)](iceland.md) — EEA incorporation and implementation via the Network and Information Systems Security Act.
+- [Liechtenstein](liechtenstein.md) — EEA incorporation and transposition through national cybersecurity legislation.
+- [Norway (Norge)](norway.md) — EEA incorporation and national implementation via Digitalsikkerhetsloven.
+
