@@ -54,5 +54,5 @@ Under Article 32 (Supervisory and enforcement measures for essential entities), 
 - [Articles Index](index.md)
 - [Article 21: Cybersecurity Risk-Management Measures](article-21.md)
 - [Article 23: Reporting Obligations](article-23.md)
-- [Governance Obligation Overview](../../../../obligations/governance.md)
+- [Governance Obligation Overview](../../../../obligations/governance/governance-duties.md)
 [^directive-eu-2022-2555]: European Parliament and Council of the European Union, Directive (EU) 2022/2555 on measures for a high common level of cybersecurity across the Union (NIS2), http://data.europa.eu/eli/dir/2022/2555/oj

@@ -3,17 +3,17 @@ release: 0.1.0
 baseline: '2026-09-27'
 coverage_status: complete
 review_status: unverified
-total_concepts: 116
+total_concepts: 121
 by_category:
-  authority: 5
+  guidance: 2
   glossary: 4
-  guidance: 1
-  jurisdiction: 30
-  law: 48
-  requirement: 5
-  sector: 18
-  standard: 2
+  authority: 5
   timeline: 3
+  standard: 2
+  requirement: 7
+  jurisdiction: 30
+  law: 50
+  sector: 18
 by_type:
   Authority: 5
   Glossary: 4

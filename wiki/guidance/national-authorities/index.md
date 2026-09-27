@@ -2,4 +2,6 @@
 
 Guidance from national competent authorities and CSIRTs.
 
-No concepts yet. Pages added here follow the concept shape described in the repository's CONTRIBUTING.md.
+## Status
+
+Technical references and guidance for national authorities are tracked in associated chapters and supporting standards.

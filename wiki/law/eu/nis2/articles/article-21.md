@@ -70,6 +70,6 @@ Article 21 obligates essential and important entities to take appropriate and pr
 # Related concepts
 - [Article 20: Governance](article-20.md)
 - [Article 23: Reporting Obligations](article-23.md)
-- [Risk-Management Measures Overview](../../../../obligations/risk-management-measures.md)
-- [Supply Chain Security Obligation](../../../../obligations/supply-chain-security.md)
+- [Risk-Management Measures Overview](../../../../obligations/risk-management-measures/technical-and-operational-measures.md)
+- [Supply Chain Security Obligation](../../../../obligations/supply-chain/supply-chain-risk-management.md)
 [^directive-eu-2022-2555]: European Parliament and Council of the European Union, Directive (EU) 2022/2555 on measures for a high common level of cybersecurity across the Union (NIS2), http://data.europa.eu/eli/dir/2022/2555/oj

@@ -97,11 +97,11 @@ sources:
     - law/eu/nis2/articles/article-7
     - law/eu/nis2/articles/article-8
     - law/eu/nis2/articles/article-9
-    - obligations/entity-registration
-    - obligations/governance
-    - obligations/incident-reporting-clocks
-    - obligations/risk-management-measures
-    - obligations/supply-chain-security
+    - obligations/registration/entity-registration
+    - obligations/governance/governance-duties
+    - obligations/reporting/incident-reporting-clocks
+    - obligations/risk-management-measures/technical-and-operational-measures
+    - obligations/supply-chain/supply-chain-risk-management
     - sectors/high-criticality/banking
     - sectors/high-criticality/digital-infrastructure
     - sectors/high-criticality/drinking-water
@@ -133,11 +133,11 @@ sources:
     author: European Commission
     last_modified: '2024-10-17T00:00:00Z'
     used_by:
-    - obligations/entity-registration
-    - obligations/governance
-    - obligations/incident-reporting-clocks
-    - obligations/risk-management-measures
-    - obligations/supply-chain-security
+    - obligations/registration/entity-registration
+    - obligations/governance/governance-duties
+    - obligations/reporting/incident-reporting-clocks
+    - obligations/risk-management-measures/technical-and-operational-measures
+    - obligations/supply-chain/supply-chain-risk-management
   enisa-nis2:
     id: enisa-nis2
     resource: https://www.enisa.europa.eu/topics/cybersecurity-policy/nis-directive-new

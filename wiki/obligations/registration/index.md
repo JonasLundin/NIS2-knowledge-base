@@ -2,4 +2,6 @@
 
 Article 3(4) entity lists, Article 27 registration of digital entities, ENISA registry, national registration deadlines.
 
-No concepts yet. Pages added here follow the concept shape described in the repository's CONTRIBUTING.md.
+## Concepts
+
+- [Entity Registration and ENISA Registry (Articles 3 & 27)](entity-registration.md) — Mandatory submission of entity identifying information, IP ranges, and services to national competent authorities and ENISA registry.
