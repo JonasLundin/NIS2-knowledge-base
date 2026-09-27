@@ -1,5 +1,5 @@
 ---
-type: Concept
+type: Requirement
 title: Supply Chain Security & Coordinated Assessments (Articles 21 & 22)
 description: Obligations to assess vulnerability of direct suppliers, component quality,
   and implement coordinated Union risk assessments.

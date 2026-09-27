@@ -20,9 +20,9 @@ sources:
 - id: directive-eu-2022-2555
   resource: http://data.europa.eu/eli/dir/2022/2555/oj
   title: Directive (EU) 2022/2555 on measures for a high common level of cybersecurity
-    across the Union (NIS2)
+    across the Union (NIS 2 Directive)
   author: European Parliament and Council of the European Union
-  last_modified: '2022-12-14T00:00:00Z'
+  last_modified: '2022-12-27T00:00:00Z'
 x-nis2:
   jurisdiction: EU
   authority_level: binding
@@ -33,43 +33,23 @@ x-nis2:
 
 # Summary
 
-**Article 3 (Essential and important entities)** establishes the dual-tier regulatory classification governing all entities within the scope of Directive (EU) 2022/2555 (NIS2)[^directive-eu-2022-2555].
+Article 3 establishes the classification system dividing regulated entities into **essential entities** and **important entities**[^directive-eu-2022-2555].
 
-While both essential and important entities share identical cybersecurity risk management (Article 21) and incident reporting (Article 23) requirements, their supervisory enforcement regimes and financial penalties differ fundamentally.
+# Classification Criteria
 
-# Essential vs. Important Distinction Matrix
-
-```
-+-------------------------------------------------------------------+
-|               ESSENTIAL VS. IMPORTANT COMPARISON                  |
-+-------------------------------------------------------------------+
-| DIMENSION            | ESSENTIAL ENTITIES     | IMPORTANT ENTITIES|
-+----------------------+------------------------+-------------------+
-| Qualifying Criteria  | Large entities in      | Medium entities in|
-|                      | Annex I sectors; DNS/  | Annex I sectors;  |
-|                      | TLDs, Qualified TSPs,  | All entities in   |
-|                      | Central Public Admin.  | Annex II sectors. |
-+----------------------+------------------------+-------------------+
-| Supervisory Regime   | Ex-ante and ex-post:   | Ex-post only:     |
-|                      | Proactive audits,      | Action taken only |
-|                      | regular inspections,   | when evidence or  |
-|                      | compliance evidence.   | incident occurs.  |
-+----------------------+------------------------+-------------------+
-| Maximum Fine Ceiling | €10,000,000 or 2%      | €7,000,000 or 1.4%|
-| (Article 34)         | global annual turnover | global annual turn|
-+----------------------+------------------------+-------------------+
-| Management Sanctions | Temporary ban from     | Fines and orders; |
-|                      | CEO/management roles   | no direct ban on  |
-|                      | permitted (Art 32(5)). | management roles. |
-+-------------------------------------------------------------------+
-```
-
-# National Registry of Entities (Article 3(3))
-By **17 April 2025**, and every two years thereafter, Member States must establish a national list of essential and important entities and entities providing domain name registration services.
+- **Essential Entities (Art 3(1))**:
+  - Entities of a type referred to in Annex I that exceed the ceilings for medium-sized enterprises (i.e. large enterprises).
+  - Qualified trust service providers and top-level domain name registries and DNS service providers, regardless of size.
+  - Providers of public electronic communications networks or publicly available electronic communications services that qualify as medium-sized enterprises.
+  - Public administration entities under Article 2(2)(f).
+  - Any entity identified as an essential entity pursuant to Article 2(2)(c) to (e) or critical under the CER Directive (Art 2(3)).
+- **Important Entities (Art 3(2))**:
+  - Entities of a type referred to in Annex I that qualify as medium-sized enterprises under Recommendation 2003/361/EC (unless designated essential under Article 2).
+  - All entities of a type referred to in Annex II that qualify as medium-sized enterprises or exceed the ceilings for medium-sized enterprises (large enterprises in Annex II remain classified as important entities).
 
 # Related concepts
-- [Article 2: Scope & Size-Cap Rule](article-2.md)
-- [Article 20: Governance](article-20.md)
-- [Article 34: Administrative Fines](article-34.md)
+- [Scope of NIS2](article-2.md)
+- [Annex I High Criticality Sectors](../annexes/annex-1.md)
+- [Annex II Other Critical Sectors](../annexes/annex-2.md)
 
-[^directive-eu-2022-2555]: European Parliament and Council of the European Union, Directive (EU) 2022/2555 on measures for a high common level of cybersecurity across the Union (NIS2), http://data.europa.eu/eli/dir/2022/2555/oj
+[^directive-eu-2022-2555]: European Parliament and Council of the European Union, Directive (EU) 2022/2555 on measures for a high common level of cybersecurity across the Union (NIS 2 Directive), http://data.europa.eu/eli/dir/2022/2555/oj

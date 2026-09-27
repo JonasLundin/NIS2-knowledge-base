@@ -1,29 +1,29 @@
 version: 1
 release: 0.1.0
 baseline: '2026-09-27'
-coverage_status: complete
+coverage_status: partial
 review_status: unverified
-total_concepts: 121
+total_concepts: 141
 by_category:
-  guidance: 2
-  glossary: 4
-  authority: 5
-  timeline: 3
-  standard: 2
-  requirement: 7
+  authority: 8
+  glossary: 11
+  guidance: 1
   jurisdiction: 30
-  law: 50
+  law: 56
+  requirement: 7
   sector: 18
+  standard: 3
+  timeline: 7
 by_type:
-  Authority: 5
-  Glossary: 4
+  Authority: 8
+  Glossary: 11
   Guidance: 1
   Jurisdiction: 30
-  Law: 48
-  Requirement: 5
+  Law: 56
+  Requirement: 7
   Sector: 18
-  Standard: 2
-  Timeline: 3
+  Standard: 3
+  Timeline: 7
 gates:
   nis2_articles:
     pattern: law/eu/nis2/articles/article-*

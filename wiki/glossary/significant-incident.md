@@ -1,41 +1,43 @@
 ---
 type: Glossary
-title: Significant Incident
-description: An incident causing severe operational disruption or substantial material/non-material
-  damage.
+title: Significant incident
+description: An incident that has caused or is capable of causing severe operational
+  disruption or substantial financial loss for the entity, or affected other persons
+  by causing considerable damage.
 category: glossary
 tags:
-- nis2
 - glossary
+- nis2
+- definitions
 - significant-incident
 status: draft
 generated:
-  by: agent:antigravity
+  by: manual-curation
   at: '2026-09-27T00:00:00Z'
-stale_after: '2027-12-31T00:00:00Z'
+stale_after: '2027-10-17T00:00:00Z'
 sources:
 - id: directive-eu-2022-2555
   resource: http://data.europa.eu/eli/dir/2022/2555/oj
   title: Directive (EU) 2022/2555 on measures for a high common level of cybersecurity
-    across the Union (NIS2)
+    across the Union (NIS 2 Directive)
   author: European Parliament and Council of the European Union
-  last_modified: '2022-12-14T00:00:00Z'
+  last_modified: '2022-12-27T00:00:00Z'
 x-nis2:
   jurisdiction: EU
-  authority_level: guidance
-  instrument_status: in_force
-  provision: Article 23(3)
+  authority_level: binding
   checked_at: '2026-09-27T00:00:00Z'
+  provision: Article 6
 ---
 
-# Definition
+# Summary
 
-**Significant Incident**: An incident causing severe operational disruption or substantial material/non-material damage.[^directive-eu-2022-2555]
+Article 6 of Directive (EU) 2022/2555 establishes the normative definition for **Significant incident**[^directive-eu-2022-2555].
 
-# Context
-Defined in Article 6 or Article 3 of Directive (EU) 2022/2555.
+# Definition (Paraphrased)
+An incident that has caused or is capable of causing severe operational disruption or substantial financial loss for the entity, or affected other persons by causing considerable damage.
 
 # Related concepts
 - [Glossary Index](index.md)
+- [Article 6 Definitions](../law/eu/nis2/articles/article-6.md)
 
-[^directive-eu-2022-2555]: European Parliament and Council of the European Union, Directive (EU) 2022/2555 on measures for a high common level of cybersecurity across the Union (NIS2), http://data.europa.eu/eli/dir/2022/2555/oj
+[^directive-eu-2022-2555]: European Parliament and Council of the European Union, Directive (EU) 2022/2555 on measures for a high common level of cybersecurity across the Union (NIS 2 Directive), http://data.europa.eu/eli/dir/2022/2555/oj

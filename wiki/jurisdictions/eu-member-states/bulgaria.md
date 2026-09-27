@@ -1,52 +1,49 @@
 ---
 type: Jurisdiction
-title: NIS2 Implementation in Bulgaria
-description: Transposing legislation, competent authorities, CSIRT, and registration
-  for NIS2 in Bulgaria.
+title: "Bulgaria (\u0411\u044A\u043B\u0433\u0430\u0440\u0438\u044F)"
+description: "Bulgarian transposition updating the Cybersecurity Act (\u0417\u0430\
+  \u043A\u043E\u043D \u0437\u0430 \u043A\u0438\u0431\u0435\u0440\u0441\u0438\u0433\
+  \u0443\u0440\u043D\u043E\u0441\u0442)."
 category: jurisdiction
 tags:
-- jurisdiction
-- eu-member-state
-- bulgaria
 - nis2
-- csirt
+- member-state
+- jurisdiction
+- bulgaria
 status: draft
 generated:
-  by: agent:antigravity
+  by: manual-curation
   at: '2026-09-27T00:00:00Z'
-stale_after: '2027-12-31T00:00:00Z'
+stale_after: '2027-10-17T00:00:00Z'
 sources:
 - id: directive-eu-2022-2555
   resource: http://data.europa.eu/eli/dir/2022/2555/oj
   title: Directive (EU) 2022/2555 on measures for a high common level of cybersecurity
-    across the Union (NIS2)
+    across the Union (NIS 2 Directive)
   author: European Parliament and Council of the European Union
-  last_modified: '2022-12-14T00:00:00Z'
+  last_modified: '2022-12-27T00:00:00Z'
 x-nis2:
-  jurisdiction: EU
-  authority_level: guidance
-  instrument_status: in_force
-  provision: 'Member State: Bulgaria'
+  jurisdiction: BG
+  authority_level: binding
   checked_at: '2026-09-27T00:00:00Z'
 ---
 
 # Summary
 
-Implementation, national competent authorities, CSIRT routing, and registration structure for Directive (EU) 2022/2555 (NIS2)[^directive-eu-2022-2555] in **Bulgaria**.
+Bulgaria (България) implements Directive (EU) 2022/2555 through national legislation and designated competent supervisory authorities[^directive-eu-2022-2555].
 
-# National Authorities
+# National Transposition Framework
+- **Primary Transposition Act / Bill**: Законопроект за изменение и допълнение на Закона за киберсигурност
+- **Competent Supervisory Authority**: Ministry of Electronic Governance (Министерство на електронното управление)
+- **National CSIRT**: CERT Bulgaria (CERT-BG)
+- **Single Point of Contact (SPOC)**: Designated within national cybersecurity authorities.
 
-## Competent Authorities
-Designated under Article 8 of NIS2 responsible for the cybersecurity supervision of essential and important entities.
-
-## National CSIRT
-Designated under Article 9 of NIS2 responsible for incident handling, monitoring, and cross-border cooperation within the CSIRTs network.
-
-## Single Point of Contact (SPOC)
-Liaison function facilitating cross-border cooperation with other Member States, the Commission, and ENISA.
+# Supervisory Architecture and Penalties
+Under Article 34 of NIS2, national statutory penalties must provide for fines of at least EUR 10 000 000 or 2% of turnover for essential entities, and at least EUR 7 000 000 or 1.4% for important entities.
 
 # Related concepts
-- [EU Member States Index](index.md)
-- [Article 8: Competent authorities and single points of contact](../../law/eu/nis2/articles/article-8.md)
+- [Jurisdictions Index](../index.md)
+- [Article 8 Competent Authorities](../../law/eu/nis2/articles/article-8.md)
+- [Article 10 CSIRTs](../../law/eu/nis2/articles/article-10.md)
 
-[^directive-eu-2022-2555]: European Parliament and Council of the European Union, Directive (EU) 2022/2555 on measures for a high common level of cybersecurity across the Union (NIS2), http://data.europa.eu/eli/dir/2022/2555/oj
+[^directive-eu-2022-2555]: European Parliament and Council of the European Union, Directive (EU) 2022/2555 on measures for a high common level of cybersecurity across the Union (NIS 2 Directive), http://data.europa.eu/eli/dir/2022/2555/oj

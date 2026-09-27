@@ -1,14 +1,11 @@
 # Guidance
 
-Official non-binding guidance: ENISA technical implementation guidance, NIS Cooperation Group documents, Commission guidelines and FAQs, national authority guidance.
+Navigation index for Guidance.
 
 ## Sections
 
-- [ENISA](enisa/index.md) — Technical implementation guidance and reports.
-- [European Commission](european-commission/index.md) — Guidelines, FAQs and implementing-act explanatory material.
-- [National authorities](national-authorities/index.md) — Guidance from national competent authorities and CSIRTs.
-- [NIS Cooperation Group](nis-cooperation-group/index.md) — Reference documents and work-stream outputs.
+- [Enisa](enisa/index.md) — Category section for Enisa.
+- [European Commission](european-commission/index.md) — Category section for European Commission.
+- [National Authorities](national-authorities/index.md) — Category section for National Authorities.
+- [Nis Cooperation Group](nis-cooperation-group/index.md) — Category section for Nis Cooperation Group.
 
-## Concepts
-
-- [ENISA Technical Implementation Guidance for Article 21](enisa-article-21-guidance.md) — Technical and organizational guidance from ENISA on implementing NIS2 cybersecurity risk-management measures.

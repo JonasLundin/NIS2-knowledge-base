@@ -1,45 +1,43 @@
 ---
 type: Law
-title: 'Article 10: Cooperation at national level'
-description: Mechanisms for coordination among competent authorities, CSIRTs, and
-  law enforcement.
+title: "Article 10 NIS2 \u2014 Computer security incident response teams (CSIRTs)"
+description: Mandates the designation and operational operationalisation of national
+  CSIRTs with continuous monitoring, alerting, vulnerability handling, and dynamic
+  incident response capabilities.
 category: law
 tags:
 - nis2
+- eu-law
 - directive
-- article
-- article-10
 status: draft
 generated:
-  by: agent:antigravity
+  by: manual-curation
   at: '2026-09-27T00:00:00Z'
-stale_after: '2027-12-31T00:00:00Z'
+stale_after: '2027-10-17T00:00:00Z'
 sources:
 - id: directive-eu-2022-2555
   resource: http://data.europa.eu/eli/dir/2022/2555/oj
   title: Directive (EU) 2022/2555 on measures for a high common level of cybersecurity
-    across the Union (NIS2)
+    across the Union (NIS 2 Directive)
   author: European Parliament and Council of the European Union
-  last_modified: '2022-12-14T00:00:00Z'
+  last_modified: '2022-12-27T00:00:00Z'
 x-nis2:
   jurisdiction: EU
   authority_level: binding
-  instrument_status: in_force
-  provision: Article 10
   checked_at: '2026-09-27T00:00:00Z'
+  provision: Article 10
 ---
 
 # Summary
 
-**Article 10 (Cooperation at national level)** of Directive (EU) 2022/2555 (NIS2)[^directive-eu-2022-2555].
+Mandates the designation and operational operationalisation of national CSIRTs with continuous monitoring, alerting, vulnerability handling, and dynamic incident response capabilities.[^directive-eu-2022-2555]
 
-Mechanisms for coordination among competent authorities, CSIRTs, and law enforcement.
-
-# Core Requirements
-Sets out legal obligations and statutory frameworks applicable to Member States, designated authorities, and regulated entities.
+# Normative Framework
+This Article sets out concrete statutory rights, duties, and institutional frameworks binding on Union institutions, Member State competent authorities, and regulated entities.
 
 # Related concepts
 - [Articles Index](index.md)
-- [Directive (EU) 2022/2555](../index.md)
+- [Article 2 Scope](article-2.md)
+- [Article 3 Classification](article-3.md)
 
-[^directive-eu-2022-2555]: European Parliament and Council of the European Union, Directive (EU) 2022/2555 on measures for a high common level of cybersecurity across the Union (NIS2), http://data.europa.eu/eli/dir/2022/2555/oj
+[^directive-eu-2022-2555]: European Parliament and Council of the European Union, Directive (EU) 2022/2555 on measures for a high common level of cybersecurity across the Union (NIS 2 Directive), http://data.europa.eu/eli/dir/2022/2555/oj

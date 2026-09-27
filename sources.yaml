@@ -1,24 +1,32 @@
-version: 1
-checked_at: '2026-09-27T00:00:00Z'
-total_sources: 3
+total_sources: 9
 sources:
   directive-eu-2022-2555:
-    id: directive-eu-2022-2555
-    resource: http://data.europa.eu/eli/dir/2022/2555/oj
     title: Directive (EU) 2022/2555 on measures for a high common level of cybersecurity
-      across the Union (NIS2)
+      across the Union (NIS 2 Directive)
+    resource: http://data.europa.eu/eli/dir/2022/2555/oj
     author: European Parliament and Council of the European Union
-    last_modified: '2022-12-14T00:00:00Z'
+    last_modified: '2022-12-27T00:00:00Z'
     used_by:
+    - authorities/competent-authorities
     - authorities/csirts
+    - authorities/csirts-network
     - authorities/enisa
     - authorities/eu-cyclone
+    - authorities/euvd
     - authorities/nis-cooperation-group
     - authorities/single-points-of-contact
+    - glossary/cyber-threat
+    - glossary/cybersecurity
     - glossary/essential-entity
     - glossary/important-entity
+    - glossary/incident
+    - glossary/national-cybersecurity-strategy
     - glossary/near-miss
+    - glossary/network-and-information-system
+    - glossary/security-of-network-and-information-systems
     - glossary/significant-incident
+    - glossary/vulnerability
+    - guidance/enisa/enisa-nis2-technical-guidance
     - jurisdictions/eea/iceland
     - jurisdictions/eea/liechtenstein
     - jurisdictions/eea/norway
@@ -97,10 +105,20 @@ sources:
     - law/eu/nis2/articles/article-7
     - law/eu/nis2/articles/article-8
     - law/eu/nis2/articles/article-9
-    - obligations/registration/entity-registration
+    - law/eu/nis2/secondary-legislation/empowerments-register
+    - law/eu/nis2/secondary-legislation/implementing-regulation-2024-2690
+    - law/eu/related-legislation/cer-directive
+    - law/eu/related-legislation/cra-nis2-interplay
+    - law/eu/related-legislation/cybersecurity-act
+    - law/eu/related-legislation/dora-regulation
+    - law/eu/related-legislation/eidas-regulation
+    - law/eu/related-legislation/gdpr
     - obligations/governance/governance-duties
+    - obligations/jurisdiction-and-establishment/jurisdiction-and-representatives
+    - obligations/registration/entity-registration
     - obligations/reporting/incident-reporting-clocks
     - obligations/risk-management-measures/technical-and-operational-measures
+    - obligations/scope/scope-and-size-cap
     - obligations/supply-chain/supply-chain-risk-management
     - sectors/high-criticality/banking
     - sectors/high-criticality/digital-infrastructure
@@ -120,29 +138,74 @@ sources:
     - sectors/other-critical/postal-and-courier-services
     - sectors/other-critical/research
     - sectors/other-critical/waste-management
+    - standards/etsi-en-319-401
     - standards/iec-62443
     - standards/iso-iec-27001
     - timeline/application-date
+    - timeline/commission-review-deadline
+    - timeline/entity-registration-deadline
+    - timeline/essential-important-list-deadline
+    - timeline/implementing-regulation-application
     - timeline/nis2-entry-into-force
     - timeline/transposition-deadline
-  implementing-reg-eu-2024-2690:
-    id: implementing-reg-eu-2024-2690
+  implementing-regulation-eu-2024-2690:
+    title: Commission Implementing Regulation (EU) 2024/2690 laying down technical
+      and methodological requirements of cybersecurity risk-management measures and
+      specifying the cases in which an incident is considered to be significant
     resource: http://data.europa.eu/eli/reg_impl/2024/2690/oj
-    title: Commission Implementing Regulation (EU) 2024/2690 on cybersecurity risk-management
-      measures and reporting under NIS2
     author: European Commission
-    last_modified: '2024-10-17T00:00:00Z'
+    last_modified: '2024-10-18T00:00:00Z'
+    used_by: []
+  recommendation-2003-361-ec:
+    title: Commission Recommendation 2003/361/EC concerning the definition of micro,
+      small and medium-sized enterprises
+    resource: http://data.europa.eu/eli/reco/2003/361/oj
+    author: European Commission
+    last_modified: '2003-05-20T00:00:00Z'
     used_by:
-    - obligations/registration/entity-registration
-    - obligations/governance/governance-duties
-    - obligations/reporting/incident-reporting-clocks
-    - obligations/risk-management-measures/technical-and-operational-measures
-    - obligations/supply-chain/supply-chain-risk-management
-  enisa-nis2:
-    id: enisa-nis2
-    resource: https://www.enisa.europa.eu/topics/cybersecurity-policy/nis-directive-new
-    title: ENISA NIS2 Directive Guidance and Resources
+    - law/eu/nis2/articles/article-2
+    - obligations/scope/scope-and-size-cap
+  regulation-eu-2024-2847:
+    title: Regulation (EU) 2024/2847 on horizontal cybersecurity requirements for
+      products with digital elements (Cyber Resilience Act)
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj
+    author: European Parliament and Council of the European Union
+    last_modified: '2024-11-20T00:00:00Z'
+    used_by:
+    - law/eu/related-legislation/cra-nis2-interplay
+  enisa-nis2-guidance:
+    title: Technical Guidance for the Implementation of NIS2 Cybersecurity Risk-Management
+      Measures
+    resource: https://www.enisa.europa.eu/publications/technical-guidance-for-the-implementation-of-nis2-security-measures
     author: European Union Agency for Cybersecurity (ENISA)
-    last_modified: '2024-01-01T00:00:00Z'
+    last_modified: '2025-06-15T00:00:00Z'
+    used_by: []
+  iso-iec-27001-2022:
+    title: "ISO/IEC 27001:2022 Information security, cybersecurity and privacy protection\
+      \ \u2014 Information security management systems \u2014 Requirements"
+    resource: https://www.iso.org/standard/27001
+    author: International Organization for Standardization
+    last_modified: '2022-10-01T00:00:00Z'
+    used_by: []
+  iec-62443-4-2:
+    title: "IEC 62443-4-2:2019 Security for industrial automation and control systems\
+      \ \u2014 Technical security requirements for IACS components"
+    resource: https://webstore.iec.ch/publication/60120
+    author: International Electrotechnical Commission
+    last_modified: '2019-02-22T00:00:00Z'
+    used_by: []
+  etsi-en-319-401:
+    title: 'ETSI EN 319 401: Electronic Signatures and Infrastructures (ESI); General
+      Policy Requirements for Trust Service Providers'
+    resource: https://www.etsi.org/deliver/etsi_en/319400_319499/319401/02.03.01_60/en_319401v020301p.pdf
+    author: European Telecommunications Standards Institute (ETSI)
+    last_modified: '2021-07-01T00:00:00Z'
+    used_by: []
+  sfs-2025-1506:
+    title: "Cybers\xE4kerhetslag (SFS 2025:1506) och Cybers\xE4kerhetsf\xF6rordning\
+      \ (SFS 2025:1507)"
+    resource: https://svenskforfattningssamling.se/doc/20251506.html
+    author: Sveriges Riksdag och Regering
+    last_modified: '2025-12-18T00:00:00Z'
     used_by:
-    - guidance/enisa-article-21-guidance
+    - jurisdictions/eu-member-states/sweden
