@@ -1,5 +1,5 @@
 ---
-type: Concept
+type: Law
 title: Commission Implementing Regulation (EU) 2024/2690
 description: Technical and methodological requirements of cybersecurity risk-management
   measures and significant incident thresholds for digital providers.

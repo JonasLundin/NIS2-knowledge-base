@@ -1,5 +1,5 @@
 ---
-type: Concept
+type: Requirement
 title: Incident Reporting Clocks and Escalation (Article 23)
 description: 'The multi-stage statutory notification clocks for significant incidents:
   24h early warning, 72h incident notification, and 1-month final report.'

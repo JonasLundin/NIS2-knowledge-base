@@ -1,7 +1,4 @@
-# National authorities
+# National Authorities
 
-Guidance from national competent authorities and CSIRTs.
+Navigation index for National Authorities.
 
-## Status
-
-Technical references and guidance for national authorities are tracked in associated chapters and supporting standards.

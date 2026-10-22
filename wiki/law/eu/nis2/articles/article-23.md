@@ -18,9 +18,9 @@ sources:
 - id: directive-eu-2022-2555
   resource: http://data.europa.eu/eli/dir/2022/2555/oj
   title: Directive (EU) 2022/2555 on measures for a high common level of cybersecurity
-    across the Union (NIS2)
+    across the Union (NIS 2 Directive)
   author: European Parliament and Council of the European Union
-  last_modified: '2022-12-14T00:00:00Z'
+  last_modified: '2022-12-27T00:00:00Z'
 x-nis2:
   jurisdiction: EU
   authority_level: binding
@@ -31,51 +31,27 @@ x-nis2:
 
 # Summary
 
-**Article 23 (Reporting obligations)** establishes the Union-wide incident notification framework for essential and important entities experiencing a **significant incident**[^directive-eu-2022-2555].
+Article 23 establishes the multi-stage incident reporting process for essential and important entities experiencing a **significant incident**[^directive-eu-2022-2555].
 
-Article 23 replaces the vague notification timelines of NIS1 with an unambiguous, multi-stage notification clock enforced across all 27 EU Member States.
+# Mandatory Reporting Windows
 
-# The Multi-Stage Incident Reporting Clock
-
-```
-   INCIDENT DETECTED
-           |
-           | T + 24 Hours
-           v
-+-------------------------------------------------------------+
-| 1. Early Warning (Article 23(4)(a))                         |
-| - Notify CSIRT or competent authority                       |
-| - State whether incident is suspected of being caused by    |
-|   unlawful or malicious acts                                |
-| - State whether it could have cross-border impact           |
-+-------------------------------------------------------------+
-           |
-           | T + 72 Hours
-           v
-+-------------------------------------------------------------+
-| 2. Incident Notification (Article 23(4)(b))                 |
-| - Update early warning information                          |
-| - Provide initial assessment: severity, impact, indicators   |
-+-------------------------------------------------------------+
-           |
-           | T + 1 Month (or Intermediate Report on request)
-           v
-+-------------------------------------------------------------+
-| 3. Final Report (Article 23(4)(e))                          |
-| - Detailed description of incident, severity, and impact    |
-| - Type of threat or root cause                              |
-| - Applied and ongoing mitigation measures                   |
-| - Cross-border impact details                               |
-+-------------------------------------------------------------+
-```
-
-# Significant Incident Thresholds (Article 23(3))
-An incident is considered significant if:
-1. It has caused or is capable of causing severe operational disruption of the services or financial loss for the entity concerned;
-2. It has affected or is capable of affecting other natural or legal persons by causing considerable material or non-material damage.
+1. **Early Warning (within 24 hours)** of becoming aware of the significant incident:
+   - Must indicate whether the significant incident is suspected of being caused by unlawful or malicious acts or could have an cross-border impact.
+   - *Trust Service Providers*: Under Article 23(4) final subparagraph, trust service providers must notify competent authorities or CSIRTs within 24 hours of becoming aware of any incident having a significant impact.
+2. **Incident Notification (within 72 hours)** of becoming aware:
+   - Initial assessment of the incident, updating the early warning and indicating severity, impact, and indicators of compromise where available.
+3. **Intermediate Report (upon request)**:
+   - Status update requested by the CSIRT or competent authority.
+4. **Final Report (within 1 month after the 72-hour notification)** under point (b):
+   - Detailed description of the incident, including its severity and impact.
+   - Type of threat or root cause that likely triggered the incident.
+   - Applied and ongoing mitigation measures.
+   - Cross-border impact where relevant.
+5. **Progress Report (if incident is ongoing)**:
+   - If the incident is still ongoing at the 1-month mark, a progress report must be submitted at that time, followed by a final report within one month after handling the incident.
 
 # Related concepts
-- [Article 20: Governance](article-20.md)
-- [Article 21: Cybersecurity Risk-Management Measures](article-21.md)
-- [Incident Reporting Clocks Overview](../../../../obligations/reporting/incident-reporting-clocks.md)
-[^directive-eu-2022-2555]: European Parliament and Council of the European Union, Directive (EU) 2022/2555 on measures for a high common level of cybersecurity across the Union (NIS2), http://data.europa.eu/eli/dir/2022/2555/oj
+- [Incident Reporting Obligations](../../../../obligations/reporting/incident-reporting-clocks.md)
+- [Implementing Regulation (EU) 2024/2690](../secondary-legislation/implementing-regulation-2024-2690.md)
+
+[^directive-eu-2022-2555]: European Parliament and Council of the European Union, Directive (EU) 2022/2555 on measures for a high common level of cybersecurity across the Union (NIS 2 Directive), http://data.europa.eu/eli/dir/2022/2555/oj

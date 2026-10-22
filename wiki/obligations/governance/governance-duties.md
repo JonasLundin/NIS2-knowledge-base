@@ -1,5 +1,5 @@
 ---
-type: Concept
+type: Requirement
 title: Management Body Governance and Liability (Article 20)
 description: Mandatory approval of cybersecurity risk measures, mandatory training,
   and potential personal liability for management bodies under NIS2.

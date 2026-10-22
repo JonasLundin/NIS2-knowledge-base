@@ -1,7 +1,4 @@
 # European Commission
 
-Guidelines, FAQs and implementing-act explanatory material.
+Navigation index for European Commission.
 
-## Status
-
-Technical references and guidance for european commission are tracked in associated chapters and supporting standards.

@@ -1,9 +1,10 @@
-# NIS2 Directive
+# Nis2
 
-The directive itself: articles, annexes and secondary legislation.
+Navigation index for Nis2.
 
 ## Sections
 
-- [Annexes](annexes/index.md) — Annex I sectors of high criticality and Annex II other critical sectors.
-- [Articles](articles/index.md) — One page per article of Directive (EU) 2022/2555.
-- [Secondary legislation](secondary-legislation/index.md) — Implementing Regulation (EU) 2024/2690 and further implementing or delegated acts, with a register of pending empowerments.
+- [Annexes](annexes/index.md) — Category section for Annexes.
+- [Articles](articles/index.md) — Category section for Articles.
+- [Secondary Legislation](secondary-legislation/index.md) — Category section for Secondary Legislation.
+

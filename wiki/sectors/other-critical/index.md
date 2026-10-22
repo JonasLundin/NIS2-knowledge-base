@@ -1,6 +1,6 @@
-# Annex II other critical sectors
+# Other Critical
 
-One page per Annex II sector.
+Navigation index for Other Critical.
 
 ## Concepts
 
@@ -11,3 +11,4 @@ One page per Annex II sector.
 - [Sector: Postal and Courier Services](postal-and-courier-services.md) — Postal service providers and courier service operators.
 - [Sector: Research](research.md) — Research organisations carrying out applied research, excluding educational institutions.
 - [Sector: Waste Management](waste-management.md) — Undertakings carrying out waste management, excluding those with waste water as sole activity.
+

@@ -1,5 +1,5 @@
 ---
-type: Concept
+type: Standard
 title: ISO/IEC 27001:2022 Information Security Management
 description: International benchmark standard for information security management
   systems mapped to NIS2 Article 21 requirements.

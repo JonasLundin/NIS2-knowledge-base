@@ -1,5 +1,5 @@
 ---
-type: Concept
+type: Guidance
 title: ENISA Technical Implementation Guidance on NIS2
 description: ENISA guidance mapping Article 21 technical measures to international
   cybersecurity standards.

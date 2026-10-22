@@ -1,8 +1,9 @@
-# European Union
+# Eu
 
-European Union instruments and their interaction pages.
+Navigation index for Eu.
 
 ## Sections
 
-- [NIS2 Directive](nis2/index.md) — The directive itself: articles, annexes and secondary legislation.
-- [Related EU legislation](related-legislation/index.md) — Focused interaction pages: CRA, CER Directive (EU) 2022/2557, DORA as lex specialis, GDPR breach notification, Cybersecurity Act, eIDAS.
+- [Nis2](nis2/index.md) — Category section for Nis2.
+- [Related Legislation](related-legislation/index.md) — Category section for Related Legislation.
+

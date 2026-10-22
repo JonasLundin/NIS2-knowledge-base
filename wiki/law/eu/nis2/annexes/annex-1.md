@@ -20,9 +20,9 @@ sources:
 - id: directive-eu-2022-2555
   resource: http://data.europa.eu/eli/dir/2022/2555/oj
   title: Directive (EU) 2022/2555 on measures for a high common level of cybersecurity
-    across the Union (NIS2)
+    across the Union (NIS 2 Directive)
   author: European Parliament and Council of the European Union
-  last_modified: '2022-12-14T00:00:00Z'
+  last_modified: '2022-12-27T00:00:00Z'
 x-nis2:
   jurisdiction: EU
   authority_level: binding
@@ -33,30 +33,27 @@ x-nis2:
 
 # Summary
 
-**Annex I (Sectors of High Criticality)** of Directive (EU) 2022/2555 (NIS2) enumerates the eleven critical societal and economic sectors subject to the most rigorous cybersecurity baseline across the Union[^directive-eu-2022-2555].
+Annex I enumerates the eleven **sectors of high criticality** governed by Directive (EU) 2022/2555[^directive-eu-2022-2555].
 
-Large enterprises in these sectors are classified as **Essential Entities**, subject to proactive ex-ante regulatory supervision.
+# Sectors of High Criticality
 
-# Complete Taxonomy of the 11 High-Criticality Sectors
+1. **Energy**: Electricity, district heating/cooling, oil, gas, and hydrogen producers, suppliers, and operators.
+2. **Transport**: Air, rail, water, and road transport operators and infrastructure managers.
+3. **Banking**: Credit institutions as defined in Regulation (EU) No 575/2013.
+4. **Financial Market Infrastructures**: Operators of trading venues and central counterparties.
+5. **Health**: Healthcare providers, EU reference laboratories, entities conducting R&D of medicinal products, entities manufacturing basic pharmaceutical products and preparations, and manufacturers of medical devices considered critical during public health emergencies.
+6. **Drinking Water**: Suppliers and distributors of water intended for human consumption (excluding distributors for which water distribution is a non-essential part of their general activity).
+7. **Waste Water**: Undertakings collecting, treating, or discharging urban, domestic, or industrial waste water.
+8. **Digital Infrastructure**: Providers of IXPs, DNS, TLD registries, cloud computing services, data centre services, CDNs, trust service providers, and public electronic communications networks/services.
+9. **ICT Service Management (B2B)**: Managed service providers (MSPs) and managed security service providers (MSSPs).
+10. **Public Administration**: Central government entities and regional government entities.
+11. **Space**: Operators of ground-based infrastructure supporting the provision of space-based services.
 
-| Sector | Subsectors & Qualifying Entity Types |
-| :--- | :--- |
-| **1. Energy** | Electricity (generators, DSOs, TSOs, market operators); District heating/cooling; Oil (pipelines, production, refining, storage); Gas (suppliers, DSOs, TSOs, LNG, storage); Hydrogen (production, storage, transmission). |
-| **2. Transport** | Air (air carriers, airport managing bodies, traffic control); Rail (infrastructure managers, railway undertakings); Water (inland/maritime passenger & cargo, port authorities, VTS); Road (Road authorities, ITS operators). |
-| **3. Banking** | Credit institutions under Directive 2013/36/EU. |
-| **4. Financial Market Infrastructures** | Operators of trading venues and central counterparties (CCPs). |
-| **5. Health** | Healthcare providers, EU reference laboratories, entities conducting R&D of medicinal products, manufacturers of basic pharmaceutical products and medical devices during public health emergencies. |
-| **6. Drinking Water** | Suppliers and distributors of water intended for human consumption (excluding individual private wells). |
-| **7. Waste Water** | Undertakings collecting, disposing of, or treating urban, domestic, or industrial waste water. |
-| **8. Digital Infrastructure** | Internet Exchange Points (IXPs); DNS service providers (excluding root servers); TLD name registries; Cloud computing service providers; Data center service providers; Content delivery networks (CDNs); Trust service providers; Public electronic communications networks & services. |
-| **9. ICT Service Management (B2B)** | Managed Service Providers (MSPs); Managed Security Service Providers (MSSPs). |
-| **10. Public Administration** | Central government entities; Regional public administration entities providing critical public services. |
-| **11. Space** | Operators of ground-based infrastructure supporting the provision of space-based services. |
+# Entity Classification Rule
+Under Article 3(1)(a), Annex I entities exceeding the ceilings for medium-sized enterprises are essential entities. Medium-sized Annex I entities are important entities (Article 3(2)).
 
 # Related concepts
-- [Annexes Index](index.md)
-- [Annex II: Other Critical Sectors](annex-2.md)
-- [Article 2: Scope & Size-Cap Rule](../articles/article-2.md)
-- [Article 3: Essential and Important Entities](../articles/article-3.md)
+- [Article 3 Classification](../articles/article-3.md)
+- [Annex II Other Critical Sectors](annex-2.md)
 
-[^directive-eu-2022-2555]: European Parliament and Council of the European Union, Directive (EU) 2022/2555 on measures for a high common level of cybersecurity across the Union (NIS2), http://data.europa.eu/eli/dir/2022/2555/oj
+[^directive-eu-2022-2555]: European Parliament and Council of the European Union, Directive (EU) 2022/2555 on measures for a high common level of cybersecurity across the Union (NIS 2 Directive), http://data.europa.eu/eli/dir/2022/2555/oj
